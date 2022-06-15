@@ -6,8 +6,11 @@ Build con pandoc: `pandoc md/*.md -f markdown+smart+footnotes -t epub3 -s  --epu
 
 # ToDo
 
---añadir archivos de audio e incorporarlos en el libro-- (desde sigil: por alguna razon no funciona en pandoc)
---tunear template & CSS para maquetar la página de título--
-- crear una muestra con texto & audio
-- crear links en la web a wikipedia y goodreads
-
+- [X] añadir archivos de audio e incorporarlos en el libro-- (desde sigil: por alguna razon no funciona en pandoc)
+- [X] tunear template & CSS para maquetar la página de título--
+- [X] crear una muestra con texto & audio
+- [X] custom css for auddio controls
+- [X] incluir audios en nav
+- [ ] mejorar audios (volumen de audio de la gaby)
+- [ ] crear links en la web a wikipedia y goodreads
+- [ ] 
