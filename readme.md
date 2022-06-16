@@ -2,7 +2,7 @@
 
 Este repositorio contiene los archivos del proyecto de edición del libro "La misteriosa maternidad del verso".
 
-Build con pandoc: `pandoc md/*.md -f markdown+smart+footnotes -t epub3 -s  --epub-metadata=metadata/metadata.yaml -o epub/3conf.epub`
+Build con pandoc: `pandoc md/*.md metadata/metadata.yaml -f markdown+smart+footnotes -t epub3 -s  --epub-toc-level= -o epub/3conf.epub`
 
 # ToDo
 
